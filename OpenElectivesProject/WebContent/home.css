@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color:linen;
+}
+h1
+{
+	color: navy;
+    text-align:center;
+}
+h2
+{
+	color: red;
+    text-align:center;
+}
+h3
+{
+	color: black;
+    text-align:center;
+}
+h4
+{
+	color: green;
+}
+.column
+{
+	text-align:center;
+    background-color:mediumspringgreen;
+	float:left;
+	width:35%;
+	height:250px;
+	margin:50px;
+}
+img { 
+    border-radius: 50%;
+}
+a:hover img{ 
+  background-color:red;
+  opacity: 2;
+}
+select {
+	display:inline-block;
+}
+fieldset{
+	    background-color:  honeydew;
+}
+table
+{
+	background-color:white;
+	color:black
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
